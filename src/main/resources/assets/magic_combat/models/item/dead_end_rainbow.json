@@ -1,0 +1,12 @@
+{
+  "parent": "item/handheld",
+  "textures": {"layer0": "magic_combat:items/dead_end_rainbow/der_base"},
+  "overrides": [
+    {"predicate": { "custom_model_data": 1}, "model": "magic_combat:item/dead_end_rainbow/l0"},
+    {"predicate": { "custom_model_data": 2}, "model": "magic_combat:item/dead_end_rainbow/l1"},
+    {"predicate": { "custom_model_data": 3}, "model": "magic_combat:item/dead_end_rainbow/l2"},
+    {"predicate": { "custom_model_data": 4}, "model": "magic_combat:item/dead_end_rainbow/l3"},
+    {"predicate": { "custom_model_data": 5}, "model": "magic_combat:item/dead_end_rainbow/l4"},
+    {"predicate": { "custom_model_data": 6}, "model": "magic_combat:item/dead_end_rainbow/l5"}
+  ]
+}

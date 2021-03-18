@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "magic_combat:boorit_horn"
+    },
+    "title": {
+      "translate": "advancements.magic_combat.obtain_boorit_horn.title"
+    },
+    "description": {
+      "translate": "advancements.magic_combat.obtain_boorit_horn.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "magic_combat:obtain_red_crystal",
+  "criteria": {
+    "boorit_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magic_combat:boorit_horn"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "boorit_horn"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Dark",
+  "description": "A place to write down spells for later",
+  "icon": "magic_combat:wand_item{CustomModelData: 5}",
+  "parent": "magic_combat:spells_category",
+  "secret": true
+}

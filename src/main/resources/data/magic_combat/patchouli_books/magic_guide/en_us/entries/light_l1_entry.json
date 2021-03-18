@@ -1,0 +1,12 @@
+{
+  "name": "Basic Light Spell",
+  "icon": "minecraft:writable_book",
+  "category": "spell_categories/light_spell_category",
+  "advancement": "magic_combat:light_wand/obtain",
+  "pages": [
+    {
+      "type": "text",
+      "text": "This is a test entry, but it should show up!"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "magic_combat:items/dead_end_rainbow/der_base",
+    "layer1": "magic_combat:items/dead_end_rainbow/der_l2"
+  }
+}

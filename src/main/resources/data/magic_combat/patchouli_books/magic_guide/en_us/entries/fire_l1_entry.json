@@ -1,0 +1,12 @@
+{
+  "name": "Basic Fire Spell",
+  "icon": "minecraft:writable_book",
+  "category": "spell_categories/fire_spell_category",
+  "advancement": "magic_combat:fire_wand/obtain",
+  "pages": [
+    {
+      "type": "text",
+      "text": "This is a test entry, but it should show up!"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "item/handheld",
+  "textures": {"layer0": "magic_combat:items/wands/wand0"},
+  "overrides": [
+    {"predicate": { "custom_model_data": 0}, "model": "magic_combat:item/wands/wand0"},
+    {"predicate": { "custom_model_data": 1}, "model": "magic_combat:item/wands/wand1"},
+    {"predicate": { "custom_model_data": 2}, "model": "magic_combat:item/wands/wand2"},
+    {"predicate": { "custom_model_data": 3}, "model": "magic_combat:item/wands/wand3"},
+    {"predicate": { "custom_model_data": 4}, "model": "magic_combat:item/wands/wand4"},
+    {"predicate": { "custom_model_data": 5}, "model": "magic_combat:item/wands/wand5"},
+    {"predicate": { "custom_model_data": 6}, "model": "magic_combat:item/wands/wand6"},
+    {"predicate": { "custom_model_data": 7}, "model": "magic_combat:item/wands/wand7"},
+    {"predicate": { "custom_model_data": 8}, "model": "magic_combat:item/wands/wand8"}
+  ]
+}

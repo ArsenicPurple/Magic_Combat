@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "magic_combat:wand_item",
+      "nbt": "{CustomModelData: 7}"
+    },
+    "title": {
+      "translate": "advancements.magic_combat.obtain_crystal_wand.title",
+      "color": "aqua"
+    },
+    "description": {
+      "translate": "advancements.magic_combat.obtain_crystal_wand.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "magic_combat:obtain_wand",
+  "criteria": {
+    "wand_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magic_combat:wand_item",
+            "nbt": "{CustomModelData: 7}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wand_item"
+    ]
+  ]
+}

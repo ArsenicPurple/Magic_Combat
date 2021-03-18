@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "patchouli:guide_book"
+    },
+    "title": {
+      "translate": "advancements.magic_combat.obtain_magic_guide.title"
+    },
+    "description": {
+      "translate": "advancements.magic_combat.obtain_magic_guide.description"
+    },
+    "frame": "task",
+    "background": "magic_combat:textures/guis/advancements/backgrounds/rune.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "guide_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "patchouli:guide_book"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "guide_book"
+    ]
+  ]
+}

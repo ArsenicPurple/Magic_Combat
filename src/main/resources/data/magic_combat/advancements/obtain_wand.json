@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "magic_combat:wand_item"
+    },
+    "title": {
+      "translate": "advancements.magic_combat.obtain_wand.title"
+    },
+    "description": {
+      "translate": "advancements.magic_combat.obtain_wand.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "magic_combat:obtain_boorit_horn",
+  "criteria": {
+    "wand_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magic_combat:wand_item"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wand_item"
+    ]
+  ]
+}

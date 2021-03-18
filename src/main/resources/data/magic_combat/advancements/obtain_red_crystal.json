@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "magic_combat:red_crystal"
+    },
+    "title": {
+      "translate": "advancements.magic_combat.obtain_red_crystal.title",
+      "color": "red"
+    },
+    "description": {
+      "translate": "advancements.magic_combat.obtain_red_crystal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "magic_combat:root",
+  "criteria": {
+    "red_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magic_combat:red_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_crystal"
+    ]
+  ]
+}
